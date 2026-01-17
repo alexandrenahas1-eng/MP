@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alexandre Nahas - Joueur de rugby et professionnel du développement commercial. Prospection, partenariats et stratégie de visibilité.">
+    <meta name="author" content="Alexandre Nahas">
+    <title>Alexandre Nahas - Rugby & Business Development</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Alexandre Nahas</a>
+
+            <!-- Menu Desktop -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#a-propos" class="nav-link">À propos</a></li>
+                <li><a href="#profil-sportif" class="nav-link">Profil sportif</a></li>
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Burger Menu Mobile -->
+            <button class="burger" id="burger" aria-label="Menu">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="container hero-content">
+            <h1 class="hero-title">Alexandre Nahas</h1>
+            <p class="hero-tagline">Joueur de rugby & Développement commercial</p>
+            <p class="hero-description">
+                Discipline sportive, stratégie commerciale. Je conjugue performance sur le terrain
+                et développement de partenariats pour créer de la valeur durable.
+            </p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Me contacter</a>
+                <a href="#projets" class="btn btn-secondary">Mes projets</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section class="section" id="a-propos">
+        <div class="container">
+            <h2 class="section-title">À propos</h2>
+            <div class="about-content">
+                <p>
+                    Je suis Alexandre Nahas, 23 ans, joueur au Stade Dijonnais et professionnel
+                    du développement commercial. Mon parcours sportif m'a appris la rigueur,
+                    l'engagement et le travail d'équipe. Ces valeurs guident aujourd'hui mon
+                    approche du développement commercial.
+                </p>
+                <p>
+                    Je me spécialise dans la structuration d'offres de partenariats, la prospection
+                    B2B et la création de relations durables avec les entreprises locales. Mon objectif :
+                    créer des ponts entre le monde sportif et le tissu économique régional, en apportant
+                    une vraie valeur ajoutée aux deux parties.
+                </p>
+                <p>
+                    Ancré à Dijon, je développe des projets qui allient performance, engagement local
+                    et vision stratégique à long terme.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profil Sportif -->
+    <section class="section section-alt" id="profil-sportif">
+        <div class="container">
+            <h2 class="section-title">Profil sportif</h2>
+            <div class="sport-content">
+                <div class="sport-card">
+                    <h3>Engagement au Stade Dijonnais</h3>
+                    <p>
+                        En tant que joueur au Stade Dijonnais, j'évolue dans un environnement
+                        exigeant qui façonne mon approche professionnelle. Le rugby m'a enseigné
+                        des compétences directement transférables au monde de l'entreprise.
+                    </p>
+                </div>
+
+                <div class="sport-values">
+                    <h3>Ce que le rugby dit de moi</h3>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <h4>Discipline</h4>
+                            <p>Rigueur et respect des processus dans chaque action.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Performance</h4>
+                            <p>Orientation résultats et amélioration continue.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Esprit d'équipe</h4>
+                            <p>Collaboration et réussite collective avant tout.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Résilience</h4>
+                            <p>Capacité à rebondir et à maintenir le cap face aux défis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stade Dijonnais -->
+    <section class="section" id="stade-dijonnais">
+        <div class="container">
+            <h2 class="section-title">Le Stade Dijonnais</h2>
+            <div class="club-content">
+                <p class="club-intro">
+                    Le Stade Dijonnais est un club de rugby ancré dans le paysage sportif dijonnais.
+                    Structure historique de la région, le club incarne les valeurs fondamentales du rugby :
+                    respect, engagement, solidarité et esprit collectif.
+                </p>
+
+                <div class="club-grid">
+                    <div class="club-card">
+                        <h3>Ancrage local</h3>
+                        <p>
+                            Basé à Dijon, le club est un acteur du territoire qui fédère joueurs,
+                            supporters et partenaires autour d'un projet sportif commun.
+                        </p>
+                    </div>
+                    <div class="club-card">
+                        <h3>Valeurs du rugby</h3>
+                        <p>
+                            Respect des adversaires, engagement total sur le terrain, solidarité entre
+                            coéquipiers et esprit collectif orienté vers la performance.
+                        </p>
+                    </div>
+                    <div class="club-card">
+                        <h3>Projet sportif</h3>
+                        <p>
+                            Le club développe une approche structurée de la performance, avec une vision
+                            à long terme qui associe formation, compétition et développement des partenariats.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section class="section section-alt" id="competences">
+        <div class="container">
+            <h2 class="section-title">Compétences & expertises</h2>
+            <p class="section-intro">
+                Mon activité se concentre sur le développement commercial et la création de partenariats
+                durables. Voici les domaines dans lesquels j'interviens.
+            </p>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Développement commercial</h3>
+                    <p>
+                        Identification d'opportunités, qualification de prospects et construction
+                        de propositions commerciales adaptées aux enjeux des entreprises.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Prospection B2B</h3>
+                    <p>
+                        Approche ciblée des entreprises locales et régionales, prise de contact,
+                        suivi de cycle de prospection et construction de relations professionnelles.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Partenariats & sponsoring</h3>
+                    <p>
+                        Structuration d'offres de partenariats sportifs, négociation et mise en place
+                        d'accords gagnant-gagnant entre clubs et entreprises.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Structuration d'offres</h3>
+                    <p>
+                        Création de dossiers de prospection, présentation de projets et valorisation
+                        des opportunités de visibilité et d'engagement.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Relationnel & négociation</h3>
+                    <p>
+                        Construction de relations de confiance, écoute des besoins des partenaires
+                        et accompagnement dans la durée.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Suivi & reporting</h3>
+                    <p>
+                        Gestion de pipeline commercial, suivi des actions engagées et reporting
+                        des résultats auprès des parties prenantes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section class="section" id="projets">
+        <div class="container">
+            <h2 class="section-title">Projets</h2>
+
+            <!-- Projet principal : Dossier Remy -->
+            <div class="project-featured">
+                <h3 class="project-title">Dossier Remy - Prospection sponsors Stade Dijonnais</h3>
+                <p class="project-description">
+                    Structuration et pilotage d'un projet de prospection de sponsors pour le Stade Dijonnais.
+                    Ce projet consiste à développer un dossier de partenariat complet et à déployer une
+                    démarche commerciale ciblée auprès d'entreprises locales et régionales.
+                </p>
+
+                <div class="project-details">
+                    <div class="project-detail">
+                        <h4>Structuration du dossier</h4>
+                        <p>
+                            Création d'un support de présentation professionnel qui valorise le club,
+                            ses valeurs, son audience et les opportunités de visibilité pour les partenaires.
+                        </p>
+                    </div>
+
+                    <div class="project-detail">
+                        <h4>Cycle de prospection</h4>
+                        <p>
+                            Identification des cibles, prise de contact, présentation du dossier,
+                            suivi des échanges et accompagnement jusqu'à la signature.
+                        </p>
+                    </div>
+
+                    <div class="project-detail">
+                        <h4>Approche orientée enjeux</h4>
+                        <p>
+                            Compréhension des objectifs des entreprises (visibilité locale, engagement RSE,
+                            cohésion d'équipe) pour proposer des partenariats sur-mesure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Autres projets -->
+            <div class="project-other">
+                <h3>Autres projets en développement</h3>
+                <p>
+                    Je travaille actuellement sur d'autres initiatives liées au développement commercial
+                    et à la création de ponts entre le monde sportif et le tissu économique régional.
+                    Ces projets seront détaillés prochainement.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p class="section-intro">
+                Vous souhaitez échanger sur un projet de partenariat, une opportunité de collaboration
+                ou simplement en savoir plus ? N'hésitez pas à me contacter.
+            </p>
+
+            <div class="contact-content">
+                <!-- Informations de contact -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <a href="mailto:alexandre.nahas@example.com">alexandre.nahas@example.com</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/alexandre-nahas" target="_blank" rel="noopener noreferrer">
+                            linkedin.com/in/alexandre-nahas
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <h3>Localisation</h3>
+                        <p>Dijon, Bourgogne-Franche-Comté</p>
+                    </div>
+                </div>
+
+                <!-- Formulaire de contact -->
+                <form class="contact-form" id="contactForm">
+                    <h3>Envoyer un message</h3>
+
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" name="name" required placeholder="Votre nom">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="votre@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Objet de votre message">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Votre message..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+        <div class="container">
+            <h2 class="section-title">Questions fréquentes</h2>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 class="faq-question">Travaillez-vous uniquement sur Dijon et sa région ?</h3>
+                    <p class="faq-answer">
+                        Mon activité est principalement ancrée sur Dijon et la Bourgogne-Franche-Comté,
+                        mais je reste ouvert à des projets dans d'autres régions selon les opportunités
+                        et la cohérence avec mes domaines d'expertise.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Quel type de partenaires recherchez-vous ?</h3>
+                    <p class="faq-answer">
+                        Je cible principalement des entreprises locales et régionales qui souhaitent
+                        accroître leur visibilité, s'engager dans une démarche de responsabilité sociétale
+                        ou renforcer leur ancrage territorial via le sport.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Comment se déroule un projet de partenariat ?</h3>
+                    <p class="faq-answer">
+                        Chaque projet débute par une phase d'écoute pour comprendre vos objectifs.
+                        Je structure ensuite une proposition adaptée, puis accompagne la mise en place
+                        du partenariat et assure un suivi régulier pour garantir la satisfaction des deux parties.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Proposez-vous des services en dehors du monde sportif ?</h3>
+                    <p class="faq-answer">
+                        Mon expertise se concentre sur le développement commercial et les partenariats
+                        dans le secteur sportif. Toutefois, les compétences acquises (prospection B2B,
+                        structuration d'offres, relationnel) sont transférables à d'autres secteurs selon les projets.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h4>Alexandre Nahas</h4>
+                <p>Rugby & Business Development</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email : <a href="mailto:alexandre.nahas@example.com">alexandre.nahas@example.com</a></p>
+                <p>Dijon, Bourgogne-Franche-Comté</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Alexandre Nahas. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <button class="scroll-top" id="scrollTop" aria-label="Retour en haut">
+        ↑
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
